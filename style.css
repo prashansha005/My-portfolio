@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f5f6ff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #6c63ff, #8a63ff);
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: #fafbff;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    color: #2c2c54;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: #6c63ff;
+    color: white;
+    margin-right: 10px;
+}
+
+.buttons .outline {
+    background: transparent;
+    border: 2px solid #6c63ff;
+    color: #6c63ff;
+}
+
+
+.hero-img img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 6px solid #6c63ff;
+    box-shadow: 0 10px 30px rgba(108,99,255,0.35);
+
+}
+
+.card {
+    background: white;
+    margin: 40px 60px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+h3 {
+    color: #6c63ff;
+    margin-bottom: 15px;
+}
+
+#skills {
+    margin: 40px 60px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 20px;
+}
+
+.skill {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+footer {
+    background: linear-gradient(90deg, #6c63ff, #8a63ff);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
